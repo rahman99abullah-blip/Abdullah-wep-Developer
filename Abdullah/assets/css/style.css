@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px !important;
+    box-sizing: border-box;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.logo_Abdulah{
+    max-width: 180px;
+}
+.designarena_image_hdfi0las{
+    max-width: 500px;
+}
+.captcha-spinner {
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #0066ff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 0.8s linear infinite;
+}
+.Abdullah{
+    font-size: 65px;
+    font-weight: 600;
+    color: white;
+    line-height: 37px;
+    padding-top: 15px;
+}
+.DEVELOPER{
+    color: #0066FF;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0px;
+}
+.responsive{
+    max-width: 430px;
+    padding: 12px 0px;
+}
+.About{
+    font-size: 25px;
+    font-weight: 300;
+    color: #0066FF;
+}
+.laptop{
+    border-radius: 20px;
+    border: 2px solid #565656;
+}
+.passionate{
+    font-size: 14px;
+    max-width: 440px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #d0d0d0;
+}
+.functional{
+    padding: 12px 0px;
+    line-height: 25px;
+}
+.skills{
+    font-size: 14px;
+    color: white;
+}
+.quote{
+    transform: rotate(180deg);
+    font-size: 23px;
+}
+.review{
+    font-size: 13px;
+}
+.review_image{
+    max-width: 60px;
+}
+.review_name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.work_text{
+    font-size: 15px;
+    line-height: 20px;
+}
+.image-box{
+    height:350px;
+    width:100%;
+    overflow:hidden;
+}
+.Digital_Agency_Website{
+    width:100%;
+    height:1095px;
+    object-fit:cover;
+    transition:transform 5s ease;
+}
+.image-box:hover .Digital_Agency_Website{
+    transform:translateY(-600px);
+}
+.E-commerce{
+    width:100%;
+    height:950px;
+    object-fit:cover;
+    transition:transform 5s ease;
+}
+.image-box:hover .E-commerce{
+    transform:translateY(-600px);
+}
+.Portfolio{
+    width:100%;
+    height:950px;
+    object-fit:cover;
+    transition:transform 5s ease;
+}
+.image-box:hover .Portfolio{
+    transform:translateY(-600px);
+}
